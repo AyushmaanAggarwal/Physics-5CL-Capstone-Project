@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vboolType name="decouplecorrection" visible="true">
+    <displayName>Decouple Correction</displayName>
+    <description>Provides a mechanism for applying a nonlinearity correction feature without electric dark or stored dark spectrum.</description>
+    <pointX>0</pointX>
+    <pointY>0</pointY>
+    <id>101</id>
+    <key>decoupleEdcNlcKey</key>
+    <value>false</value>
+</vboolType>

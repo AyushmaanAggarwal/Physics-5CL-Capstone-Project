@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<algorithmFile name="File Writer" id="202">
+    <VisualName>File Writer_2</VisualName>
+    <Producers>
+        <parent>Aggregate_1</parent>
+        <id>201</id>
+    </Producers>
+    <shortDescription>File Writer</shortDescription>
+    <pointX>350</pointX>
+    <pointY>525</pointY>
+    <constant>0.0</constant>
+    <controlParameters visible="true">0</controlParameters>
+    <controlParameters visible="true">100</controlParameters>
+    <controlParameters visible="true">100</controlParameters>
+    <controlParameters visible="true">sec</controlParameters>
+    <controlParameters visible="true">100</controlParameters>
+    <controlParameters visible="true">msec</controlParameters>
+    <controlParameters visible="true">0</controlParameters>
+    <controlParameters visible="true">minute</controlParameters>
+    <controlParameters visible="true">1</controlParameters>
+    <controlParameters visible="true">1</controlParameters>
+    <controlParameters visible="true">0</controlParameters>
+    <controlParameters visible="true">60</controlParameters>
+    <controlParameters visible="true">sec</controlParameters>
+    <controlParameters visible="true">/Users/gprabhakar/oceanview</controlParameters>
+    <controlParameters visible="true">ASCII (with header data)</controlParameters>
+    <controlParameters visible="true">5</controlParameters>
+    <controlParameters visible="true"></controlParameters>
+    <controlParameters visible="true">Timestamp</controlParameters>
+    <indicator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+</algorithmFile>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vboolType name="strobelamp" visible="true">
+    <displayName>Strobe/Lamp Enable</displayName>
+    <description>Provides a mechanism for turning the lamp control pin off and on.</description>
+    <pointX>0</pointX>
+    <pointY>0</pointY>
+    <id>101</id>
+    <key>strobeLampEnable:0</key>
+    <value>false</value>
+</vboolType>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<acquireFile name="USB2G57718" id="101">
+    <VisualName>USB2G57718_1</VisualName>
+    <Consumers>
+        <child>View_3</child>
+        <id>503</id>
+    </Consumers>
+    <Consumers>
+        <child>Aggregate_1</child>
+        <id>201</id>
+    </Consumers>
+    <Producers>
+        <parent>Device:USB2G57718</parent>
+        <id>1</id>
+    </Producers>
+    <shortDescription>USB2G57718</shortDescription>
+    <pointX>225</pointX>
+    <pointY>225</pointY>
+    <Features>
+        <id>class com.oceanoptics.omnidriver.api.adapters.OOIWavelengthCoefficientFeatureAdapter:0</id>
+        <visible>false</visible>
+    </Features>
+    <Features>
+        <id>class com.oceanoptics.omnidriver.api.adapters.OOISpectrometerFeatureAdapter:0</id>
+        <visible>true</visible>
+    </Features>
+    <Features>
+        <id>class com.oceanoptics.omnidriver.api.adapters.OOIStrobeLampEnableFeatureAdapter:0</id>
+        <visible>true</visible>
+    </Features>
+    <Features>
+        <id>class com.oceanoptics.omnidriver.api.adapters.OOIDecoupleCorrectionFeatureAdapter:0</id>
+        <visible>false</visible>
+    </Features>
+    <runState>true</runState>
+    <runDelay>5.0</runDelay>
+</acquireFile>

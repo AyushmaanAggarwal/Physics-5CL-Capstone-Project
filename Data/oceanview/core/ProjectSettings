@@ -1,0 +1,6 @@
+-- listing properties --
+axisXmaximum=500
+axisYmaximum=500
+xAxisUnits=Wavelength
+axisXminimum=300
+axisYminimum=-50

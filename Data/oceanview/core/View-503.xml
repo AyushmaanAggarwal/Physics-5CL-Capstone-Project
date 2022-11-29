@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<viewFile name="View" id="503">
+    <VisualName>View_3</VisualName>
+    <Producers>
+        <parent>USB2G57718_1</parent>
+        <id>101</id>
+    </Producers>
+    <shortDescription>View</shortDescription>
+    <pointX>400</pointX>
+    <pointY>225</pointY>
+    <activeXMinAxis>350.0</activeXMinAxis>
+    <activeXMaxAxis>1000.0</activeXMaxAxis>
+    <activeYMinAxis>0.0</activeYMinAxis>
+    <activeYMaxAxis>4095.0</activeYMaxAxis>
+    <cursorXPoint>0.0</cursorXPoint>
+    <pickPanel>false</pickPanel>
+    <DisplayType>1</DisplayType>
+    <xMinAxis>300.0</xMinAxis>
+    <xMaxAxis>500.0</xMaxAxis>
+    <yMinAxis>-50.0</yMinAxis>
+    <yMaxAxis>500.0</yMaxAxis>
+</viewFile>

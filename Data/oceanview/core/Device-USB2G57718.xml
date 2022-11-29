@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deviceFile name="USB650" id="1">
+    <VisualName>Device:USB2G57718</VisualName>
+    <Consumers>
+        <child>USB2G57718_1</child>
+        <id>101</id>
+    </Consumers>
+    <shortDescription>Device</shortDescription>
+    <pointX>25</pointX>
+    <pointY>225</pointY>
+    <Identification>USB2G57718</Identification>
+</deviceFile>

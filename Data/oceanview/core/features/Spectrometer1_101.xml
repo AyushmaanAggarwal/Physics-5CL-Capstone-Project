@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vboolType name="Spectrometer" visible="true">
+    <displayName>Spectrometer</displayName>
+    <description>Provides control of the spectral acquisition component of the USB2000 spectrometer.</description>
+    <pointX>0</pointX>
+    <pointY>0</pointY>
+    <id>101</id>
+    <key>averagingAbort</key>
+    <value>false</value>
+</vboolType>

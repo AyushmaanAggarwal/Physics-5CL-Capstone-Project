@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<algorithmFile name="Aggregate" id="201">
+    <VisualName>Aggregate_1</VisualName>
+    <Consumers>
+        <child>File Writer_2</child>
+        <id>202</id>
+    </Consumers>
+    <Producers>
+        <parent>USB2G57718_1</parent>
+        <id>101</id>
+    </Producers>
+    <shortDescription>Aggregate</shortDescription>
+    <pointX>350</pointX>
+    <pointY>375</pointY>
+    <constant>0.0</constant>
+    <controlParameters visible="true">1</controlParameters>
+    <indicator xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+    <order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true"/>
+</algorithmFile>
