@@ -95,8 +95,7 @@ def weighted_least_squares_linear(x, y, err):
 
 def combine_linear_uncertainties(x, y, x_err, y_err):
     m, _ = simple_least_squares_linear(x,y)
-    print(y_err, np.multiply(m,x_err))
-    return quartrature_sum([y_err, m*x_err])
+    return [quartrature_sum([y_error, m*x_error]) for y_error, x_error in zip(y_err, y_err)]
 
 def get_uncertain_array(x, error):
     return [un.ufloat(val, error) for val in x]
