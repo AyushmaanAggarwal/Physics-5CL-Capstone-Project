@@ -6,6 +6,7 @@
 # Covariance, Variance, Standard Deviation, Correlation Coefficents, more
 
 import numpy as np
+import scipy.optimize as opt
 import uncertainties as un
 
 def covariance(x, y):
@@ -97,8 +98,25 @@ def combine_linear_uncertainties(x, y, x_err, y_err):
     m, _ = simple_least_squares_linear(x,y)
     return [quartrature_sum([y_error, m*x_error]) for y_error, x_error in zip(y_err, y_err)]
 
+def combine_nonlinear_uncertainties(x, y, x_err, y_err, model, initial_params):
+    x_w_error = get_uncertain_array(x, x_err)
+    y_w_error = get_uncertain_array(y, y_err)
+
+    pov, cov = opt.curve_fit(model, x, y, initial_params)
+    prop_y_w_error = model(x_w_error, *pov)
+    print(len(prop_y_w_error), len(y_w_error))
+    combined_y_err = [y1 + y2 for y1, y2 in zip(prop_y_w_error, y_w_error)]
+    y, err =  seperate_uncertainty_array(combined_y_err)
+    return err
+    
+
 def get_uncertain_array(x, error):
-    return [un.ufloat(val, error) for val in x]
+    if type(error) != type([]):
+        return [un.ufloat(val, error) for val in x]
+    
+    return [un.ufloat(val, err) for val, err in zip(x, error)]
+
+        
 
 def seperate_uncertainty_array(x):
     return [val.nominal_value for val in x], [val.std_dev for val in x]
