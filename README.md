@@ -1,7 +1,3 @@
 # Physics-5CL-Capstone-Project
 
-# Your mom's so big she caused the universe to stop accelerating in expansion
-
-# Your mom's so big she threw off Einstein's estimate of the cosmological constant
-
-# Your mom's so big her walk causes gravitational waves.
+Developed a model and data analysis tools to understand the photoelectric effect with varying wavelengths under a black body radiation source
